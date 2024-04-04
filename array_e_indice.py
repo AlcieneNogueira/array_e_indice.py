@@ -4,5 +4,4 @@ def imprimir_nomes():
     print("2 -", nomes[1])
     print("3 -", nomes[2])
     print("4 -", nomes[3])
-imprimir_nomes()
-    
+imprimir_nomes()    
