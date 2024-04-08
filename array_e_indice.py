@@ -23,3 +23,17 @@ def imprimir_segundo_terceiro_nome ():
     print("3 -", nome[2])
 
 imprimir_segundo_terceiro_nome()
+
+
+
+def substituir_alimentos():
+    alimentos = ["macarrão", "pepino", "batata"]
+
+    alimentos[0] = input("digite o primeiro alimento: ")
+    alimentos[1] = input("digite o segundo alimento: ")
+    alimentos[2] = input("digite o terceiro alimento: ")
+    
+    print("1 -", alimentos[0])
+    print("2 -", alimentos[1])
+    print("3 -", alimentos[2])
+substituir_alimentos()
