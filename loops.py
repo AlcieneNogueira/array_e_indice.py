@@ -20,3 +20,14 @@ def tabuada_do_2():
       print("2" + "+" + str (adicao) + "=" + str (resultado))
       adicao +=1
 tabuada_do_2()
+
+
+
+def tabuada_multiplicacao():
+   numero_do_usuario = int(input("digite o numero: "))
+   contador = 1
+   while contador <=10:
+      multiplicacao = numero_do_usuario * contador
+      print(numero_do_usuario, "x", contador, "=", multiplicacao)
+      contador = contador +1
+tabuada_multiplicacao()
