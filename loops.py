@@ -5,9 +5,9 @@ imprimir_contagem()
 
 
 
-
 def contar_numero_usuario():
-    numero = int(input("digite um numero: "))
-    for i in range ():
-        print(i)
-
+    numero_do_usuario = int(input("digite um numero: "))
+    for i in range (numero_do_usuario + 1 ):
+     print(i)
+contar_numero_usuario() 
+  
