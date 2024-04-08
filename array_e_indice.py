@@ -17,10 +17,12 @@ def imprimir_primeiro_ultimo_nome ():
 imprimir_primeiro_ultimo_nome()
 
 
+
 def imprimir_segundo_terceiro_nome ():
     nome = ["João", "Maria", "fulano", "ciclano"]
     print("2 -", nome[1])
     print("3 -", nome[2])
+
 imprimir_segundo_terceiro_nome()
 
 
